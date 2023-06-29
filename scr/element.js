@@ -109,7 +109,7 @@ function addElementToLocalStorage(){
 }
    
 
-function editElementInLocalStorage(id) {s
+function editElementInLocalStorage(id) {
     if (validKeyboard()) {
         let editElement = JSON.parse(localStorage.getItem(id))
         editElement.name =  document.getElementById("name").value;   
