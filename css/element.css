@@ -1,0 +1,33 @@
+.element {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.element-img {
+    width: 800px;
+    height: 500px;
+    margin: 10px auto;
+}
+
+.element-data {
+    text-align: center;
+}
+
+.element-name {
+    font-size: 1.0em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.element-text{
+    font-size: 0.9em;
+    padding-bottom: 5px;
+}
+.element-footer{
+    display: flex;
+    justify-content: center
+}
